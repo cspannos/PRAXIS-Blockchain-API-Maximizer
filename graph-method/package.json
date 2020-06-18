@@ -1,8 +1,8 @@
 {
-  "name": "@d3/force-directed-graph",
+  "name": "praxis-graph",
   "main": "a6c00de7c09bdfa1@139.js",
   "version": "139.0.0",
-  "homepage": "https://observablehq.com/@d3/force-directed-graph",
+  "homepage": "https://observablehq.com/@cspannos/praxis-p2p-network-method-analyzer",
   "author": {
     "name": "D3",
     "url": "https://observablehq.com/@d3"
@@ -12,6 +12,7 @@
     "@observablehq/runtime": "4"
   },
   "dependencies": {
+    "@d3/force-directed-graph": "https://api.observablehq.com/@d3/force-directed-graph.tgz?v=3",
     "@observablehq/runtime": "^4.7.0"
   }
 }

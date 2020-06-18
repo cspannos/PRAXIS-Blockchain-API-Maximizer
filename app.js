@@ -3,10 +3,13 @@ var app = express();
 
 app.use(express.static('public'));
 
-
 app.get('/', function(req, res) {
-	res.sendFile('./method-graph/index.html', { root: __dirname });
+	res.sendFile('./graph-method/index.html', { root: __dirname });
 });
+
+// app.get('/', function(req, res) {
+//        res.sendFile('./arc-method/index.html', { root: __dirname });
+// });
 
 
 app.listen(3000, function(){
