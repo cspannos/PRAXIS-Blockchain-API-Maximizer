@@ -6,7 +6,7 @@ export default function define(runtime, observer) {
   main.variable(observer()).define(["md"], function(md){return(
 md`# PRAXIS Arc Method Diagram
 
-Visualizing combinations of method calls and their volume. Hover over a method below to inspect its connection with other methods.`
+Visualizing combinations of Ethereum method calls and their volume. Hover over a method below to inspect its connection with other methods.`
 )});
   main.variable(observer("viewof order")).define("viewof order", ["d3","html"], function(d3,html)
 {
