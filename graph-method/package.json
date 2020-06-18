@@ -3,7 +3,7 @@
   "main": "a6c00de7c09bdfa1@139.js",
   "version": "139.0.0",
   "homepage": "https://observablehq.com/@cspannos/praxis-p2p-network-method-analyzer",
-  "author": { "Chris Spannos"
+  "author": { "Chris Spannos",
     "name": "D3",
     "url": "https://observablehq.com/@d3"
   },

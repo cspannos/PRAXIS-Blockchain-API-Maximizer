@@ -61,7 +61,7 @@ A tool analyzing Ethereum API method calls across nodes and networks, to leverag
 }
 );
   main.variable(observer("data")).define("data", ["FileAttachment"], function(FileAttachment){return(
-FileAttachment("miserables.json").json()
+FileAttachment("methods.json").json()
 )});
   main.variable(observer("height")).define("height", function(){return(
 600
