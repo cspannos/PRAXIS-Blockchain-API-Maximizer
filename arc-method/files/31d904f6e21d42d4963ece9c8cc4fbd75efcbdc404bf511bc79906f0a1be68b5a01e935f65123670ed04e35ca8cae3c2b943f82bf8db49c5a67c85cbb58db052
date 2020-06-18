@@ -62,7 +62,7 @@
     {"id": "shh_newFilter", "group": 8},
     {"id": "shh_uninstallFilter", "group": 8},
     {"id": "shh_getFilterChanges", "group": 8},
-    {"id": "shh_getMessages", "group": 8},
+    {"id": "shh_getMessages", "group": 8}
   ],
   "links": [
     {"source": "web3_clientVersion", "target": "eth_getUncleCountByBlockNumber", "value": 1},
