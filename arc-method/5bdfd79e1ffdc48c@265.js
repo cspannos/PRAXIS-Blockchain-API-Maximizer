@@ -4,9 +4,9 @@ export default function define(runtime, observer) {
   const fileAttachments = new Map([["miserables.json",new URL("./files/31d904f6e21d42d4963ece9c8cc4fbd75efcbdc404bf511bc79906f0a1be68b5a01e935f65123670ed04e35ca8cae3c2b943f82bf8db49c5a67c85cbb58db052",import.meta.url)]]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
   main.variable(observer()).define(["md"], function(md){return(
-md`# Arc Diagram
+md`# PRAXIS Arc Method Diagram
 
-This diagram places nodes in a horizontal or vertical line, with circular arcs for links. Unlike other network visualizations such as a [force layout](/@d3/force-directed-graph), the appearance (and usefulness) of an arc diagram is highly dependent on the order of nodes. Hover over a node below to inspect its connections.`
+Visualizing combinations of method calls and their volume. Hover over a method below to inspect its connection with other methods.`
 )});
   main.variable(observer("viewof order")).define("viewof order", ["d3","html"], function(d3,html)
 {
