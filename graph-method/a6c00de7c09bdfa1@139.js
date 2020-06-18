@@ -1,4 +1,4 @@
-// https://observablehq.com/@d3/force-directed-graph@139
+// https://observablehq.com/@cspannos/praxis-p2p-network-method-analyzer
 export default function define(runtime, observer) {
   const main = runtime.module();
   const fileAttachments = new Map([["miserables.json",new URL("./files/31d904f6e21d42d4963ece9c8cc4fbd75efcbdc404bf511bc79906f0a1be68b5a01e935f65123670ed04e35ca8cae3c2b943f82bf8db49c5a67c85cbb58db052",import.meta.url)]]);
