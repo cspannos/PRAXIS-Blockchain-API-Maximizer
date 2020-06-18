@@ -7,6 +7,8 @@
 
 import define from "./index.js";
 import {Runtime, Library, Inspector} from "./runtime.js";
+// import {Runtime, Inspector} from "@observablehq/runtime";
+// import define from "@d3/arc-diagram";
 
 const runtime = new Runtime();
 const main = runtime.module(define, Inspector.into(document.body));
