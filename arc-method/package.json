@@ -1,9 +1,9 @@
 {
-  "name": "@d3/arc-diagram",
+  "name": "praxis-arc",
   "main": "5bdfd79e1ffdc48c@265.js",
   "version": "265.0.0",
-  "homepage": "https://observablehq.com/@d3/arc-diagram",
-  "author": {
+  "homepage": "https://observablehq.com/d/7c4fb1c6f7b0cdaf",
+  "author": { "Chris Spannos"
     "name": "D3",
     "url": "https://observablehq.com/@d3"
   },
