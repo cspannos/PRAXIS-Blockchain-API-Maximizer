@@ -1,12 +1,12 @@
 // https://observablehq.com/@cspannos/praxis-p2p-network-method-analyzer
 export default function define(runtime, observer) {
   const main = runtime.module();
-  const fileAttachments = new Map([["miserables.json",new URL("./files/31d904f6e21d42d4963ece9c8cc4fbd75efcbdc404bf511bc79906f0a1be68b5a01e935f65123670ed04e35ca8cae3c2b943f82bf8db49c5a67c85cbb58db052",import.meta.url)]]);
+  const fileAttachments = new Map([["methods.json",new URL("./files/31d904f6e21d42d4963ece9c8cc4fbd75efcbdc404bf511bc79906f0a1be68b5a01e935f65123670ed04e35ca8cae3c2b943f82bf8db49c5a67c85cbb58db052",import.meta.url)]]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
   main.variable(observer()).define(["md"], function(md){return(
 md `# PRAXIS P2P Network Method Analyzer
 
-A tool analyzing API method calls across nodes and networks, to leverage protocol performance and access new opportunities for strategic API implementation, covering 65 methods supported by the most popular Ethereum clients.`
+A tool analyzing Ethereum API method calls across nodes and networks, to leverage protocol performance and access new opportunities for strategic API implementation, covering 65 methods supported by the most popular Ethereum clients.`
 
 )});
   main.variable(observer("chart")).define("chart", ["data","d3","width","height","color","drag","invalidation"], function(data,d3,width,height,color,drag,invalidation)
@@ -74,24 +74,24 @@ FileAttachment("miserables.json").json()
 );
   main.variable(observer("drag")).define("drag", ["d3"], function(d3){return(
 simulation => {
-  
+
   function dragstarted(d) {
     if (!d3.event.active) simulation.alphaTarget(0.3).restart();
     d.fx = d.x;
     d.fy = d.y;
   }
-  
+
   function dragged(d) {
     d.fx = d3.event.x;
     d.fy = d3.event.y;
   }
-  
+
   function dragended(d) {
     if (!d3.event.active) simulation.alphaTarget(0);
     d.fx = null;
     d.fy = null;
   }
-  
+
   return d3.drag()
       .on("start", dragstarted)
       .on("drag", dragged)
