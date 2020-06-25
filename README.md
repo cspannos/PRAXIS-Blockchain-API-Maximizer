@@ -14,11 +14,15 @@ PRAXIS API Maximizer solves this problem by providing a suite of tools for Devel
 
 ## Method Analysis Tools
 
- | Second Header
+Description | Output
 ------------ | -------------
-Visualizing combinations of Ethereum method calls and their volume. Hover over a method below to inspect its connection with other methods. | ![Arc method graph](/img/arc.jpg)
+Visualizing combinations and volume of 65 Ethereum method calls -- covered by top Ethereum clients -- name, group, and degree. | ![Method Arc](/img/arc.jpg)
+
 
 ## P2P Network Strategy
+Description | Output
+------------ | -------------
+A tool analyzing Ethereum API method calls across nodes and networks to leverage protocol performance and access new opportunities for strategic API implementation and optimization. | ![Method graph](/img/graph.jpg)
 
 
 ## OpenAPI Framework
