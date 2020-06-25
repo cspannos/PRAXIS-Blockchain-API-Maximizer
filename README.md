@@ -5,6 +5,9 @@ PRAXIS a strategic deployment suite enabling API analysis across nodes, networks
 Visualize p2p networks for strategic API implementation of 65 methods supported by the most popular Ethereum clients (Geth, Parity, Besu, Nethermind) and the highest volume method calls.
  
 
+![Arc method graph] (/img/arc.jpg)
+
+
 ## Installation
 
 update...
@@ -17,7 +20,7 @@ update...
 update...
 
 ```cmd
-``````
+```
 
 ## Contributing
 
