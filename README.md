@@ -5,16 +5,16 @@ PRAXIS a strategic deployment suite enabling API analysis across nodes, networks
 Visualize p2p networks for strategic API implementation of 65 methods supported by the most popular Ethereum clients (Geth, Parity, Besu, Nethermind) and the highest volume method calls.
 
 
-# PROBLEM STATEMENT
+## PROBLEM STATEMENT
 Web 2.0 API tooling and infrastructure is far more advanced than the Ethereum blockchain's JSON-RPC specification. This creates barriers to entry and mass adoption since Developers and their applications have difficulty interfacing with the protocol.
 
-# SOLUTION
+## SOLUTION
 PRAXIS API Maximizer solves this problem by providing a suite of tools for Developers to carry out API method analysis and network strategy so that Developers can build applications and tooling that are data driven, hardened for security, and optimized for performance, within the most commonly used API framework.
  
 
 ## Method Analysis Tools
 
-First Header | Second Header
+ | Second Header
 ------------ | -------------
 Visualizing combinations of Ethereum method calls and their volume. Hover over a method below to inspect its connection with other methods. | ![Arc method graph](/img/arc.jpg)
 
