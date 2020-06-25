@@ -14,18 +14,21 @@ PRAXIS API Maximizer solves this problem by providing a suite of tools for Devel
 
 ## Method Analysis Tools
 
-Description | Output
+Description | Model
 ------------ | -------------
 Visualizing combinations and volume of 65 Ethereum method calls -- covered by top Ethereum clients -- name, group, and degree. | ![Method Arc](/img/arc.jpg)
 
 
 ## P2P Network Strategy
-Description | Output
+Description | Model
 ------------ | -------------
 A tool analyzing Ethereum API method calls across nodes and networks to leverage protocol performance and access new opportunities for strategic API implementation and optimization. | ![Method graph](/img/graph.jpg)
 
 
-## OpenAPI Framework
+## OpenAPI Modeling
+Description | Model
+------------ | -------------
+A browser interface to model applications based on the OpenAPI specification and based on the Swagger Editor. | ![OpenAPI editor](/img/openapi.jpg)
 
 
 
