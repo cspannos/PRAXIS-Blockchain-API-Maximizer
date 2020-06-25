@@ -1,6 +1,6 @@
-# Arc Diagram
+# Method Arc Diagram
 
-https://observablehq.com/@d3/arc-diagram@265
+https://observablehq.com/d/7c4fb1c6f7b0cdaf
 
 View this notebook in your browser by running a web server in this folder. For
 example:
