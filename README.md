@@ -11,8 +11,8 @@ PRAXIS API Maximizer solves this problem by providing a suite of tools for Devel
 ## Method Analysis Tool
 Description & Installation | Model
 ------------ | -------------
-Visualizing the relationships and volume of 65 Ethereum method calls -- covered by top Ethereum clients -- by name, group, and degree. <p> To run this tool:<br>  1. ```git clone``` this repo and cd into root<br>  2. ```cd arc-method```<br> 3. start simple server to run in browser: ```python -m SimpleHTTPServer```
- | ![Method Arc](/img/arc.jpg)
+Visualizing the relationships and volume of 65 Ethereum method calls -- covered by top Ethereum clients -- by name, group, and degree. <p> To run this tool:<br>  1. ```git clone``` this repo<br>  2. ```cd arc-method```<br> 3. start simple server to run in browser: ```python -m SimpleHTTPServer```
+<br>  | ![Method Arc](/img/arc.jpg)
 
 
 ## P2P Network Strategy
