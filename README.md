@@ -8,28 +8,37 @@ Web 2.0 API tooling and infrastructure is far more advanced than the Ethereum bl
 PRAXIS API Maximizer solves this problem by providing a suite of tools for Developers to carry out API method analysis and network strategy so that Developers can build applications and tooling that are data driven, hardened for security, and optimized for performance, within the most commonly used API framework.
  
 
+## Run
+To run PRAXIS locally install these dependencies:
+ 1. Python SimpleHTTPServer<br>
+ 2. NPM<br>
+
+Then: ```git clone https://github.com/cspannos/PRAXIS-Blockchain-API-Maximizer.git```
+
+
 ## Method Analysis Tool
 Description & Installation | Model
 ------------ | -------------
-Visualizing the relationships and volume of 65 Ethereum method calls -- covered by top Ethereum clients -- by name, group, and degree. <br><br> To run this tool:<br>  1. ```git clone https://github.com/cspannos/PRAXIS-Blockchain-API-Maximizer.git``` <br>  2. ```cd arc-method```<br> 3. start simple server: ```python -m SimpleHTTPServer```  <br> The tool will run on port: 8000  | ![Method Arc](/img/arc.jpg)
+Visualizing the relationships and volume of 65 Ethereum method calls -- covered by top Ethereum clients -- by name, group, and degree. <br><br> To run this tool:<br>  1. ```cd arc-method```<br> 2. start simple server: ```python -m SimpleHTTPServer```  <br> The tool will run on port: 8000  | ![Method Arc](/img/arc.jpg)
 
 
 ## P2P Network Strategy
 Description | Model
 ------------ | -------------
-A tool analyzing Ethereum API method calls across nodes and networks to leverage protocol performance and access new opportunities for strategic API implementation and optimization. <br><br> To run this tool:<br>  1. ```git clone https://github.com/cspannos/PRAXIS-Blockchain-API-Maximizer.git``` <br>  2. ```cd graph-method```<br> 3. start simple server: ```python -m SimpleHTTPServer```  <br> The tool will run on port: 8000  | ![Method graph](/img/graph.jpg)
+A tool analyzing Ethereum API method calls across nodes and networks to leverage protocol performance and access new opportunities for strategic API implementation and optimization. <br><br> To run this tool:<br>  1. ```cd graph-method```<br> 2. start simple server: ```python -m SimpleHTTPServer```  <br> The tool will run on port: 8000  | ![Method graph](/img/graph.jpg)
 
 
 ## OpenAPI Modeling
 Description | Model
 ------------ | -------------
-A browser interface to model applications based on the OpenAPI specification and based on the Swagger Editor. <br><br> To run this tool:<br>  1. ```git clone https://github.com/cspannos/PRAXIS-Blockchain-API-Maximizer.git``` <br>  2. ```cd praxis-openapi-editor```<br> 3. run: ```npm run start```  <br> The tool will run on port: 3000  | ![OpenAPI editor](/img/openapi.jpg)
+A browser interface to model applications based on the OpenAPI specification and based on the Swagger Editor. <br><br> To run this tool:<br>  1. ```cd praxis-openapi-editor```<br> 2. run: ```npm run start```  <br> The tool will run on port: 3000  | ![OpenAPI editor](/img/openapi.jpg)
 
 ## TODO
-Add tests
-Add contributing
-Add gifs
-Remove unecessary code and packages
+Add<br>
+- tests<br>
+- contributing<br>
+- gifs<br>
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
