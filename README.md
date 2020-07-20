@@ -19,19 +19,19 @@ Then: ```git clone https://github.com/cspannos/PRAXIS-Blockchain-API-Maximizer.g
 ## Method Analysis Tool
 Description & Installation | Model
 ------------ | -------------
-Visualizing the relationships and volume of 65 Ethereum method calls -- covered by top Ethereum clients -- by name, group, and degree. <br><br> To run this tool:<br>  1. ```cd arc-method```<br> 2. start simple server: ```python -m SimpleHTTPServer```  <br> The tool will run on port: 8000  | ![Method Arc](/img/arc.jpg)
+Visualizing the relationships and volume of 65 Ethereum method calls -- covered by top Ethereum clients -- by name, group, and degree. <br><br> To run this tool:<br>  1. ```cd arc-method```<br> 2. start simple server: ```python -m SimpleHTTPServer```  <br> The tool will run on port: 8000  | ![Method Arc](https://raw.githubusercontent.com/cspannos/PRAXIS-Blockchain-API-Maximizer/master/img/arc.jpg)
 
 
 ## P2P Network Strategy
 Description | Model
 ------------ | -------------
-A tool analyzing Ethereum API method calls across nodes and networks to leverage protocol performance and access new opportunities for strategic API implementation and optimization. <br><br> To run this tool:<br>  1. ```cd graph-method```<br> 2. start simple server: ```python -m SimpleHTTPServer```  <br> The tool will run on port: 8000  | ![Method graph](/img/graph.jpg)
+A tool analyzing Ethereum API method calls across nodes and networks to leverage protocol performance and access new opportunities for strategic API implementation and optimization. <br><br> To run this tool:<br>  1. ```cd graph-method```<br> 2. start simple server: ```python -m SimpleHTTPServer```  <br> The tool will run on port: 8000  | ![Method graph](https://raw.githubusercontent.com/cspannos/PRAXIS-Blockchain-API-Maximizer/master/img/graph.jpg)
 
 
 ## OpenAPI Modeling
 Description | Model
 ------------ | -------------
-A browser interface to model applications based on the OpenAPI specification and based on the Swagger Editor. <br><br> To run this tool:<br>  1. ```cd praxis-openapi-editor```<br> 2. run: ```npm run start```  <br> The tool will run on port: 3000  | ![OpenAPI editor](/img/openapi.jpg)
+A browser interface to model applications based on the OpenAPI specification and based on the Swagger Editor. <br><br> To run this tool:<br>  1. ```cd praxis-openapi-editor```<br> 2. run: ```npm run start```  <br> The tool will run on port: 3000  | ![OpenAPI editor](https://raw.githubusercontent.com/cspannos/PRAXIS-Blockchain-API-Maximizer/master/img/openapi.jpg)
 
 ## TODO
 Add<br>
