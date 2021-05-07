@@ -16,7 +16,7 @@
         "@types/node": "^10.12.18",
         "got": "9.6.0",
         "swarm-js": "^0.1.40",
-        "underscore": "1.9.1"
+        "underscore": "1.12.1"
     },
     "devDependencies": {
         "dtslint": "^3.4.1",
