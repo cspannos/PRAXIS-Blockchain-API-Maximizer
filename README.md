@@ -31,7 +31,7 @@ A tool analyzing Ethereum API method calls across nodes and networks to leverage
 ## OpenAPI Modeling
 Description | Model
 ------------ | -------------
-A browser interface to model applications based on the OpenAPI specification and based on the Swagger Editor. <br><br> To run this tool:<br>  1. ```cd praxis-openapi-editor```<br> 2. run: ```npm run start```  <br> The tool will run on port: 3000  | ![OpenAPI editor](https://raw.githubusercontent.com/cspannos/PRAXIS-Blockchain-API-Maximizer/master/img/openapi.jpg)
+A browser interface to model applications based on the OpenAPI specification and based on the Swagger Editor. <br><br> To run this tool:<br>  1. ```cd praxis-openapi-editor```<br> 2. run: ```npm run start```  <br> The tool will run on port: 3000  | ![OpenAPI editor](https://raw.githubusercontent.com/cspannos/PRAXIS-Blockchain-API-Maximizer/master/img/openapi.jpg) 
 
 ## TODO
 Add<br>
